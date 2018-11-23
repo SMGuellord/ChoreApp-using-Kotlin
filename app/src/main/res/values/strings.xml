@@ -1,0 +1,11 @@
+<resources>
+	<string name="app_name">ChoreApp by Paulo Dichone</string>
+	<string name="chore">Enter a Chore</string>
+	<string name="assignto">Assigned to...</string>
+	<string name="assignBy">Assign by...</string>
+	<string name="saveChore">Save Chore</string>
+	<string name="imageDesc">Icon of a chore</string>
+	<string name="assignedby">Assigned By</string>
+	<string name="chorename">Chore name</string>
+	<string name="timeassigned">Time Assigned</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.MainActivity">
+
+	<EditText
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:inputType="textPersonName"
+			android:ems="10"
+			android:layout_marginTop="60dp"
+			app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="8dp"
+			app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+			app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.503"
+			android:hint="@string/chore" android:id="@+id/enterChore"/>
+	<EditText
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:inputType="textPersonName"
+			android:ems="10"
+			android:id="@+id/assignTo" android:layout_marginTop="40dp"
+			app:layout_constraintTop_toBottomOf="@+id/enterChore" android:layout_marginEnd="8dp"
+			app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+			app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.503"
+			android:hint="@string/assignto"/>
+	<EditText
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:inputType="textPersonName"
+			android:ems="10"
+			android:id="@+id/assignBy" android:layout_marginTop="40dp"
+			app:layout_constraintTop_toBottomOf="@+id/assignTo" android:layout_marginEnd="8dp"
+			app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
+			app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.503"
+			android:hint="@string/assignBy"/>
+	<Button
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/saveChore" android:layout_marginTop="36dp"
+			app:layout_constraintTop_toBottomOf="@+id/assignBy" app:layout_constraintStart_toStartOf="parent"
+			android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+			tools:text="@string/saveChore" android:textColor="@android:color/background_light"
+			android:textStyle="bold" android:background="@android:color/holo_green_light"
+			android:textAllCaps="false" android:text="@string/saveChore"/>
+</android.support.constraint.ConstraintLayout>
